@@ -3,65 +3,64 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "numberOfInstances": {
- 	"value": {{ numberOfInstances }}
+ 	"value": "{{ numberOfInstances }}"
     },
     "storageAccountName": {
-	"value": {{ storageAccountName }}
+	"value": "{{ storageAccountName }}"
     },
     "adminUsername": {
-      "value": {{ adminUsername }}
+      "value": "{{ adminUsername }}"
     },
     "adminPassword": {
-      "value": {{ adminPassword }}
+      "value": "{{ adminPassword }}"
     },
     "sshKeyData": {
-      "value": {{ sshKeyData }}
+      "value": "{{ sshKeyData }}"
     },
     "dnsNameforLBIP": {
-      "value": {{ dnsNameforLBIP }}
+      "value": "{{ dnsNameforLBIP }}"
     },
     "vmNamePrefix": {
-      "value": {{ vmNamePrefix }}
+      "value": "{{ vmNamePrefix }}"
     },
     "imagePublisher": {
-     "value": {{ imagePublisher }}}
+     "value": "{{ imagePublisher }}"
     },
     "imageOffer": {
-      "value": {{ imageOffer }}
+      "value": "{{ imageOffer }}"
     },
     "imageSKU": {
-     "value": {{ imageSKU }}}
+     "value": "{{ imageSKU }}"
     },
     "lbName": {
-     "value": {{ lbName }}}
+     "value": "{{ lbName }}"
     },
     "nicNamePrefix": {
-      "value": {{ nicNamePrefix }}
+      "value": "{{ nicNamePrefix }}"
     },
     "publicIPAddressName": {
-      "value": {{ publicIPAddressName }}
+      "value": "{{ publicIPAddressName }}"
     },
     "vnetName": {
-      "value": {{ vnetName }}
+      "value": "{{ vnetName }}"
     },
     "vmSize": {
-      "value": {{ vmSize }}
+      "value": "{{ vmSize }}"
     },
     "avSetName": {
-      "value": {{ avSetName }}
+      "value": "{{ avSetName }}"
     },
     "dnsZoneName": {
-      "value": {{ dnsZoneName }}
+      "value": "{{ dnsZoneName }}"
     },
     "dnsRecordName": {
-      "value": {{ dnsRecordName }}
+      "value": "{{ dnsRecordName }}"
     },
     "dnsCNAME": {
-      "value": {{ dnsCNAME }}
+      "value": "{{ dnsCNAME }}"
     },
     "scriptUrl": {
-      "value": "https://medtechdevops.blob.core.windows.net/scripts/",
-      }
+      "value": "https://medtechdevops.blob.core.windows.net/scripts/"
     }
   },
   "variables": {
